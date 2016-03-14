@@ -8,16 +8,20 @@ $csv = new Read_CSV($file);
 $data = $csv->get();
         
 ```
-![][drag]
-[drag]: https://raw.githubusercontent.com/fadsel/Read-CSV/master/test.png
-![][test]
-[test]https://github.com/fadsel/Read-CSV/blob/master/test.png
-Now you can do anything with your data ,
+For example lets say you have something like this ... 
+<br/>
+<img src="https://raw.githubusercontent.com/fadsel/Read-CSV/master/test.png" width="500" alt="Read CSV Fadsel"/>
+
+Now if you do this ,
+
 ```php
+$file = "/path/to/your/file";
+$csv = new Read_CSV($file);
+$data = $csv->get();
 var_dump($data);
 ```
 
-here is the result
+You will get this as the result
 ```php
 array (size=3)
   0 => 
@@ -40,5 +44,17 @@ array (size=3)
       'links' => string 'storygam.com' (length=12)
       
 ```
-enjoy
+Awesome anha!
+
+## Side Note
+
+If you find this useful, 
+Care to try <a href="https://play.google.com/store/apps/details?id=com.fadsel.stickybubble">StickyBubble</a> On Android
+<br/>
+<img src="https://raw.githubusercontent.com/fadsel/Read-CSV/master/deneee.jpg" width="300"/>
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Read CSV</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="stickybubble.tk" property="cc:attributionName" rel="cc:attributionURL">Sticky Bubble Game</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="saficloud.com/terms" rel="cc:morePermissions">saficloud.com/terms</a>.
+
+Enjoy
 
