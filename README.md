@@ -11,7 +11,7 @@ $data = $csv->get();
 
 Now you can do anything with your data ,
 ```php
-var_dump = $data;
+var_dump($data);
 ```
 
 here is the result
