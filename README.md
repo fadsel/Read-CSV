@@ -1,5 +1,5 @@
 # Read-CSV
-It reads CSV files and brings you back an associative array to play with! 
+It reads CSV files and brings you back an associative array  :rocket: to play with! 
 
 ## How to Use it
 ```php
