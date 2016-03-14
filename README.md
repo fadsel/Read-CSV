@@ -8,7 +8,10 @@ $csv = new Read_CSV($file);
 $data = $csv->get();
         
 ```
-
+![][drag]
+[drag]: https://raw.githubusercontent.com/fadsel/Read-CSV/master/test.png
+![][test]
+[test]https://github.com/fadsel/Read-CSV/blob/master/test.png
 Now you can do anything with your data ,
 ```php
 var_dump($data);
